@@ -138,6 +138,21 @@ const Layout = (props) => (
           letter-spacing: -0.14px;
           color: #071e54;
       } 
+
+      .glbInput {
+        width: 322px;
+        height: 50px;
+        border-radius: 25px;
+        color: #071e54;
+        opacity: .8;
+        border: none;
+        outline: none;
+        box-shadow: inset 3px 3px 6px #bfc3cf, inset -3px -3px 6px #fff;
+        background: transparent;
+        font-size: 14px;
+        font-weight: 600;
+        padding: 20px 0 20px 25px;
+      }
     `}</style>
   </>
 );

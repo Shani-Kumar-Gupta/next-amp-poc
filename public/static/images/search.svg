@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36.631" height="35.092" viewBox="0 0 36.631 35.092">
+    <defs>
+        <linearGradient id="zmy5hx4v5b" x1="1.079" x2="-.237" y1="1.619" y2="-1.016" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0d3594" stop-opacity=".898"/>
+            <stop offset="1" stop-color="#35d3e1"/>
+        </linearGradient>
+        <filter id="pjwhd3gjza" width="36.631" height="35.092" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="-3" dy="-3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-color="#fff"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g filter="url(#pjwhd3gjza)" transform="translate(.003 -.003)">
+        <path fill="url(#zmy5hx4v5b)" stroke="rgba(0,0,0,0)" d="M1536.431 578.4l-3.843-2.955a7.29 7.29 0 0 0 1.358-4.263 7.414 7.414 0 0 0-7.4-7.335h-.07a7.4 7.4 0 0 0 .068 14.809h.07a7.361 7.361 0 0 0 4.887-1.9l3.933 3.032a1.093 1.093 0 0 0 .467.153h.037a.791.791 0 0 0 .655-.356.963.963 0 0 0-.162-1.185zm-9.958-1.409a5.8 5.8 0 1 1 .009 0z" transform="translate(-1506.64 -551.34)"/>
+    </g>
+</svg>

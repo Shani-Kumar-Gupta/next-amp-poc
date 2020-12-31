@@ -1,10 +1,11 @@
 import Layout from "../components/Layout";
 // import AmpState from '../components/amp/AmpState'
 // import AmpScript from '../components/amp/AmpScript'
-// import {
-//     AmpIncludeAmpList,
-//     AmpIncludeAmpCarousel,
-// } from '../components/amp/AmpCustomElement'
+import {
+    AmpIncludeAmpList,
+    AmpIncludeAmpCarousel,
+    AmpIncludeAmpAccordion
+} from '../components/amp/AmpCustomElement'
 
 export const config = { amp: true };
 
@@ -174,8 +175,37 @@ const Page3 = (props) => (
                     <p>We are widely connected to a network of 6500+ cashless garages in India</p>
                 </section>
             </section>
-            <section>
+            <section className="mainCntr">
                 <h2 className="heading">What's Covered In Tata AIG Travel Insurance</h2>
+                {/* <amp-accordion class="sample"
+                    expand-single-section>
+                    <section>
+                        <h4>Section 1</h4>
+                        <p>Id lacus amet. Aliquam eos nunc ut scelerisque lacinia, eu rutrum id, vestibulum aliqua vivamus luctus eu rhoncus ut, sodales id. Velit lacus, fermentum neque et sagittis, ac venenatis volutpat, dolore neque feugiat proin fermentum odio,odio arcu in eu wisi. </p>
+                    </section>
+                    <section>
+                        <h4>Section 2</h4>
+                        <p>Id lacus amet. Aliquam eos nunc ut scelerisque lacinia, eu rutrum id, vestibulum aliqua vivamus luctus eu rhoncus ut, sodales id. Velit lacus, fermentum neque et sagittis, ac venenatis volutpat, dolore neque feugiat proin fermentum odio,odio arcu in eu wisi. </p>
+                    </section>
+                </amp-accordion> */}
+                <h2 className="heading">What's Not Covered</h2>
+                <h2 className="heading">Did Not Find What You Were Looking For?</h2>
+                <button on="tap:" className="btnPrimary w-100">Have us call you</button>
+                <button on="tap:" className="btnSecondary renew w-100">Download Policy Wordings</button>
+                <h2 className="heading">Is Your Next Destination Covered By TATA AIG Travel Insurance !</h2>
+                <form className="sample-form"
+                    method="post"
+                    action-xhr="/documentation/examples/api/submit-form-xhr"
+                    target="_top">
+                    <input
+                        className="glbInput"
+                        type="text"
+                        name="country"
+                        min="1"
+                        max="5"/>
+                    <p>Insure your trip to Australia right now !  </p>
+                </form>
+                <button on="tap:" className="btnPrimary w-100">Buy Now</button>
             </section>
         </Layout>
         <style jsx>{`
@@ -189,6 +219,19 @@ const Page3 = (props) => (
 
       .subHeading {
           margin-top: 25px;
+      }
+
+      .btnPrimary {
+          margin-top: 20px;
+          margin-bottom: 20px;
+      }
+
+      .btnSecondary {
+          margin-bottom: 100px;
+      }
+
+      .glbInput{
+          margin-top: 33px;
       }
 
       .heading2 {
@@ -251,6 +294,17 @@ const Page3 = (props) => (
         font-weight: 500;
         line-height: 1.33;
         letter-spacing: 0.12px;
+        text-align: left;
+        color: #071e54;
+      }
+
+      .sample-form p {
+        margin: 10px 12px 28px 43px;
+        opacity: 0.5;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.54;
+        letter-spacing: -0.14px;
         text-align: left;
         color: #071e54;
       }
