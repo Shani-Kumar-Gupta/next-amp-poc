@@ -3,7 +3,7 @@ import NextHead from 'next/head'
 import { AmpIncludeAmpInstallServiceworker } from './amp/AmpCustomElement'
 
 // Your app's theme color
-const THEME_COLOR = '#005af0'
+//const THEME_COLOR = '#005af0'
 
 /**
  * A sample page layout installing the AMP Serviceworker by default.
@@ -15,7 +15,7 @@ const Layout = (props) => (
     <NextHead>
       <title>{props.title || ''}</title>
       <meta name="description" content={props.description || ''} />
-      <meta name="theme-color" content={THEME_COLOR} />
+      {/* <meta name="theme-color" content={THEME_COLOR} /> */}
       <link rel="icon" sizes="192x192" href="/static/images/icons-192.png" />
       <link rel="apple-touch-icon" href="/static/images/icons-192.png" />
       <link rel="icon" href="/static/favicon.ico" />
@@ -41,6 +41,7 @@ const Layout = (props) => (
         scroll-behavior: smooth;
         text-rendering: optimizeSpeed;
         line-height: 1.5;
+        background-color: #f5f5f5;
       }
     `}</style>
   </>

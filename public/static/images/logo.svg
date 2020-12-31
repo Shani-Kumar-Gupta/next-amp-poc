@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="87" height="85" viewBox="0 0 87 85">
+    <defs>
+        <linearGradient id="9324q2s0ra" x1=".925" x2=".032" y1=".847" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e5e6eb"/>
+            <stop offset="1" stop-color="#eff0f3"/>
+        </linearGradient>
+        <linearGradient id="e01morpm1d" x1=".944" x2=".155" y1=".786" y2=".184" xlink:href="#9324q2s0ra"/>
+        <filter id="ikqgyq296b" width="81" height="79" x="6" y="6" filterUnits="userSpaceOnUse">
+            <feOffset dx="3" dy="3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-color="#bfc3cf"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="ey26mv4boc" width="81" height="79" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="-3" dy="-3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-color="#fff"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <clipPath id="cj5mj488le">
+            <path fill="none" d="M0 0H54V53H0z" transform="translate(0 -.019)"/>
+        </clipPath>
+        <pattern id="ouff4ai00f" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" viewBox="0 0 900 900"/>
+    </defs>
+    <g>
+        <g filter="url(#ikqgyq296b)" transform="translate(-169 -129) translate(169 129)">
+            <rect width="63" height="61" fill="url(#9324q2s0ra)" rx="5" transform="translate(12 12)"/>
+        </g>
+        <g filter="url(#ey26mv4boc)" transform="translate(-169 -129) translate(169 129)">
+            <rect width="63" height="61" fill="url(#e01morpm1d)" rx="5" transform="translate(12 12)"/>
+        </g>
+        <g>
+            <g clip-path="url(#cj5mj488le)" transform="translate(-169 -129) translate(186 145.019)">
+                <path d="M0 0h60.761v60.761H0z" transform="translate(-4.129 -.256)" style="mix-blend-mode:darken;isolation:isolate" fill="url(#ouff4ai00f)"/>
+            </g>
+        </g>
+    </g>
+</svg>
