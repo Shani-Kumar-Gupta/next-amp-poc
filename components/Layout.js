@@ -72,8 +72,7 @@ const Layout = (props) => (
       }
 
       .heading {
-          width: 77%;
-          margin: 34px auto 5px;
+          margin: 34px 30px 5px;
           font-size: 23px;
           line-height: 1.22;
           letter-spacing: -0.51px;
@@ -81,8 +80,7 @@ const Layout = (props) => (
       }
 
       .subHeading {
-          width: 81%;
-          margin: 0px auto 27px;
+          margin: 0px 30px 27px;
           opacity: 0.6;
           color: #071e54;                
           font-size: 13px;
@@ -102,8 +100,15 @@ const Layout = (props) => (
           justify-items: center;
       }
 
+      .w-50{
+        width: 153px;
+      }
+
+      .w-100{
+        width: 300px;
+      }
+
       .btnSecondary {
-          width: 153px;
           height: 50px;               
           border-radius: 33px;
           border: none;
@@ -115,7 +120,6 @@ const Layout = (props) => (
       }
 
       .btnPrimary {
-          width: 151px;
           height: 50px;
           color: white;
           border: none;

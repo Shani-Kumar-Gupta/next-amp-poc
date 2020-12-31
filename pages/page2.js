@@ -8,7 +8,7 @@ import Layout from "../components/Layout";
 
 export const config = { amp: true };
 
-const Home = (props) => (
+const Page2 = (props) => (
   <>
     <Layout
       title="Welcome to AMP"
@@ -32,15 +32,9 @@ const Home = (props) => (
           Comprehensive, Third Party And Own Damage Car Insurance At Tempting
           Premiums
         </p>
-        <div className="grid-2">
-          <button on="tap:" className="btnSecondary renew w-50">
-            <div>Renew</div>
-            <div className="existing">Existing TATA AIG Policy</div>
-          </button>
-          <button on="tap:" className="btnPrimary w-50">
-            Get Price
-          </button>
-        </div>
+        <button on="tap:" className="btnPrimary w-100">
+          Get Price
+        </button>
 
         <amp-img
           width="220"
@@ -166,4 +160,4 @@ function getProtocol(req) {
   return "http";
 }
 
-export default Home;
+export default Page2;
