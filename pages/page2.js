@@ -21,6 +21,7 @@ const Page2 = (props) => (
             src="./static/images/LOGO2.png"
             width="54"
             height="53"
+            alt="logo"
           ></amp-img>
         </div>
       </header>
@@ -66,7 +67,7 @@ const Page2 = (props) => (
                 width="29"
                 height="30"
                 src="./static/images/Path 1457.svg"
-                alt="claim"
+                alt="service"
               ></amp-img>
             </article>
             <a href="#" className="link">
@@ -79,7 +80,7 @@ const Page2 = (props) => (
                 width="30"
                 height="35"
                 src="./static/images/Group 2533.svg"
-                alt="claim"
+                alt="policy"
               ></amp-img>
             </article>
             <a href="#" className="link">
@@ -92,15 +93,6 @@ const Page2 = (props) => (
     <style jsx>{`
       .bg_img {
         margin: 50px auto 25px;
-      }
-
-      .renew div:first-child {
-        margin-top: 0;
-      }
-      .renew div:nth-child(2) {
-        font-size: 9px;
-        color: #264a9f;
-        margin-top: -2px;
       }
 
       .footer {

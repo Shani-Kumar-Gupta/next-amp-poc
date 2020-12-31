@@ -21,6 +21,7 @@ const Home = (props) => (
             src="./static/images/LOGO2.png"
             width="54"
             height="53"
+            alt="logo"
           ></amp-img>
         </div>
       </header>
@@ -72,7 +73,7 @@ const Home = (props) => (
                 width="29"
                 height="30"
                 src="./static/images/Path 1457.svg"
-                alt="claim"
+                alt="service"
               ></amp-img>
             </article>
             <a href="#" className="link">
@@ -85,7 +86,7 @@ const Home = (props) => (
                 width="30"
                 height="35"
                 src="./static/images/Group 2533.svg"
-                alt="claim"
+                alt="policy"
               ></amp-img>
             </article>
             <a href="#" className="link">
