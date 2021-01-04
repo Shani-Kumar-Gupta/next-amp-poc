@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31.94" height="27.84" viewBox="0 0 31.94 27.84">
+    <defs>
+        <filter id="Path_979" width="31.94" height="19.64" x="0" y="0" filterUnits="userSpaceOnUse">
+            <feOffset dx="-3" dy="-3"/>
+            <feGaussianBlur result="blur" stdDeviation="3"/>
+            <feFlood flood-color="#fff"/>
+            <feComposite in2="blur" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Path_980" width="31.94" height="19.64" x="0" y="4.1" filterUnits="userSpaceOnUse">
+            <feOffset dx="-3" dy="-3"/>
+            <feGaussianBlur result="blur-2" stdDeviation="3"/>
+            <feFlood flood-color="#fff"/>
+            <feComposite in2="blur-2" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="Path_981" width="31.94" height="19.64" x="0" y="8.2" filterUnits="userSpaceOnUse">
+            <feOffset dx="-3" dy="-3"/>
+            <feGaussianBlur result="blur-3" stdDeviation="3"/>
+            <feFlood flood-color="#fff"/>
+            <feComposite in2="blur-3" operator="in"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <linearGradient id="linear-gradient" x1="1.079" x2="-.237" y1="1.619" y2="-1.016" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#0d3594" stop-opacity=".898"/>
+            <stop offset="1" stop-color="#35d3e1"/>
+        </linearGradient>
+        <style>
+            .cls-1{fill:url(#linear-gradient)}
+        </style>
+    </defs>
+    <g id="Group_4041">
+        <g filter="url(#Path_979)" transform="translate(12 12) translate(-12 -12)">
+            <path id="Path_979-2" d="M1066.931 569.156h12.3a.82.82 0 1 0 0-1.64h-12.3a.82.82 0 1 0 0 1.64z" class="cls-1" transform="translate(-1054.11 -555.52)"/>
+        </g>
+        <g filter="url(#Path_980)" transform="translate(12 12) translate(-12 -12)">
+            <path id="Path_980-2" d="M1079.231 572.516h-12.3a.82.82 0 0 0 0 1.64h12.3a.82.82 0 0 0 0-1.64z" class="cls-1" transform="translate(-1054.11 -556.42)"/>
+        </g>
+        <g filter="url(#Path_981)" transform="translate(12 12) translate(-12 -12)">
+            <path id="Path_981-2" d="M1079.231 577.516h-12.3a.82.82 0 0 0 0 1.64h12.3a.82.82 0 0 0 0-1.64z" class="cls-1" transform="translate(-1054.11 -557.32)"/>
+        </g>
+    </g>
+</svg>

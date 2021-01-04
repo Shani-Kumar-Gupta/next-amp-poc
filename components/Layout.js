@@ -100,6 +100,18 @@ const Layout = (props) => (
           justify-items: center;
       }
 
+      .flex-bw{
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+      }
+
+      .flex-center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
       .w-50{
         width: 153px;
       }
