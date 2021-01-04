@@ -1,4 +1,3 @@
-import React from "react";
 import { AmpIncludeAmpAccordion } from "../components/amp/AmpCustomElement";
 
 export const config = { amp: true };
@@ -9,7 +8,7 @@ const AccTest = () => {
       <AmpIncludeAmpAccordion />
       <h1>accordian test</h1>
       <amp-accordian>
-        <section id="section1" expanded>
+        <section id="section1" expanded="">
           <h2>Section 1</h2>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur

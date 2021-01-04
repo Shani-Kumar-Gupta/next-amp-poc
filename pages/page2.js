@@ -1,95 +1,83 @@
-import Layout from "../components/Layout";
-// import AmpState from '../components/amp/AmpState'
-// import AmpScript from '../components/amp/AmpScript'
-// import {
-//     AmpIncludeAmpList,
-//     AmpIncludeAmpCarousel,
-// } from '../components/amp/AmpCustomElement'
-
 export const config = { amp: true };
 
 const Page2 = (props) => (
   <>
-    <Layout
-      title="Welcome to AMP"
-      description="Learn how to build an AMP First with Next.js."
-    >
-      <header className="headerbar">
-        <div className="logo">
-          <amp-img
-            className="home-button"
-            src="./static/images/LOGO2.png"
-            width="54"
-            height="53"
-            alt="logo"
-          ></amp-img>
-        </div>
-      </header>
-      <section role="main" className="mainCntr">
-        <h2 className="heading">
-          Secure Your Car With The Super Insurance Plan!
-        </h2>
-        <p className="subHeading">
-          Comprehensive, Third Party And Own Damage Car Insurance At Tempting
-          Premiums
-        </p>
-        <button on="tap:" className="btnPrimary w-100">
-          Get Price
-        </button>
-
+    <header className="headerbar">
+      <div className="logo">
         <amp-img
-          width="220"
-          height="113"
-          src="./static/images/Group 12164.svg"
-          alt="bg car image"
-          className="bg_img"
+          className="home-button"
+          src="./static/images/LOGO2.png"
+          width="54"
+          height="53"
+          alt="logo"
         ></amp-img>
-      </section>
-      <footer className="footer">
-        <h2 className="heading">Additional Services</h2>
-        <div className="grid-3">
-          <section>
-            <article className="icon">
-              <amp-img
-                width="23"
-                height="28"
-                src="./static/images/Group 2807.svg"
-                alt="claim"
-              ></amp-img>
-            </article>
-            <a href="#" className="link">
-              Claim
-            </a>
-          </section>
-          <section>
-            <article className="icon">
-              <amp-img
-                width="29"
-                height="30"
-                src="./static/images/Path 1457.svg"
-                alt="service"
-              ></amp-img>
-            </article>
-            <a href="#" className="link">
-              Service
-            </a>
-          </section>
-          <section>
-            <article className="icon">
-              <amp-img
-                width="30"
-                height="35"
-                src="./static/images/Group 2533.svg"
-                alt="policy"
-              ></amp-img>
-            </article>
-            <a href="#" className="link">
-              Print Policy
-            </a>
-          </section>
-        </div>
-      </footer>
-    </Layout>
+      </div>
+    </header>
+    <section role="main" className="mainCntr">
+      <h2 className="heading">
+        Secure Your Car With The Super Insurance Plan!
+      </h2>
+      <p className="subHeading">
+        Comprehensive, Third Party And Own Damage Car Insurance At Tempting
+        Premiums
+      </p>
+      <button on="tap:" className="btnPrimary w-100">
+        Get Price
+      </button>
+
+      <amp-img
+        width="220"
+        height="113"
+        src="./static/images/Group 12164.svg"
+        alt="bg car image"
+        className="bg_img"
+      ></amp-img>
+    </section>
+    <footer className="footer">
+      <h2 className="heading">Additional Services</h2>
+      <div className="grid-3">
+        <section>
+          <article className="icon">
+            <amp-img
+              width="23"
+              height="28"
+              src="./static/images/Group 2807.svg"
+              alt="claim"
+            ></amp-img>
+          </article>
+          <a href="#" className="link">
+            Claim
+          </a>
+        </section>
+        <section>
+          <article className="icon">
+            <amp-img
+              width="29"
+              height="30"
+              src="./static/images/Path 1457.svg"
+              alt="service"
+            ></amp-img>
+          </article>
+          <a href="#" className="link">
+            Service
+          </a>
+        </section>
+        <section>
+          <article className="icon">
+            <amp-img
+              width="30"
+              height="35"
+              src="./static/images/Group 2533.svg"
+              alt="policy"
+            ></amp-img>
+          </article>
+          <a href="#" className="link">
+            Print Policy
+          </a>
+        </section>
+      </div>
+    </footer>
+
     <style jsx>{`
       .bg_img {
         margin: 50px auto 25px;
